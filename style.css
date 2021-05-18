@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background: linear-gradient(to right, #e96c06, #0faa50);
+}
 .undes {
   margin-top: 4rem;
 }
