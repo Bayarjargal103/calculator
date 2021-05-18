@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="undes">
+        <div class="container main-content">
+            <div class="content">
+                <div class="display">
+                    <p id="too">0</p>
+                </div>
+                <div class="buttons">
+                     <div class="keypad">
+                         <div class="numbers">
+                             <div id="7" class="keypad-number" onclick="getValue(id)">7</div>
+                             <div id="8" class="keypad-number" onclick="getValue(id)">8</div>
+                             <div id="9" class="keypad-number" onclick="getValue(id)">9</div>
+                             <div id="plus" class="keypad-number keypad-operator" onclick="getValue(id)">+</div>
+                             <div id="4" class="keypad-number" onclick="getValue(id)">4</div>
+                             <div id="5" class="keypad-number" onclick="getValue(id)">5</div>
+                             <div id="6" class="keypad-number" onclick="getValue(id)">6</div>
+                             <div id="substract" class="keypad-number keypad-operator" onclick="getValue(id)">-</div>
+                             <div id="1" class="keypad-number" onclick="getValue(id)">1</div>
+                             <div id="2" class="keypad-number" onclick="getValue(id)">2</div>
+                             <div id="3" class="keypad-number" onclick="getValue(id)">3</div>
+                             <div id="multiply" class="keypad-number keypad-operator" onclick="getValue(id)">*</div>
+                             <div id="dot" class="keypad-number"onclick="getValue(id)">.</div>
+                             <div id="0" class="keypad-number" onclick="getValue(id)">0</div>
+                            <div id="clear" class="keypad-number" onclick="getValue(id)">C</div>                                            
+                            <div id="devide" class="keypad-number keypad-operator" onclick="getValue(id)">/</div>
+                         </div>
+                     </div>
+                     <div id="equals" class="keypad-equals" onclick="getValue(id)">=</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

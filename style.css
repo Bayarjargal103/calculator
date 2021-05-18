@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.undes {
+  margin-top: 4rem;
+}
+.container {
+  max-width: 300px;
+  background: #333;
+  margin: auto;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 5px 2px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .display {
+  width: 100%;
+  height: 40px;
+  background: #ccc;
+  text-align: center;
+  color: #222;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 15px;
+  margin-top: 0.5rem;
+}
+.content .buttons .keypad {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-top: 5rem;
+}
+.content .buttons .keypad .numbers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.content .buttons .keypad .operators {
+  display: grid;
+  grid-gap: 2rem;
+}
+/* utility class */
+.keypad-number {
+  background: #ccc;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 50%;
+  color: #222;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+.keypad-equals {
+  background: #ccc;
+  font-size: 3.2rem;
+  font-weight: 900;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 2rem;
+  border-radius: 10px;
+  color: #222;
+}
+.keypad-number:hover,
+.keypad-equals:hover {
+  background: #f4f4f4;
+  cursor: pointer;
+}
